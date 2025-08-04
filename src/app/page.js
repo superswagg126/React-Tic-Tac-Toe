@@ -100,7 +100,7 @@ export default function Game() {
 
   return (
     <div className="game">
-      <h1>Testing Auto Deployment</h1>
+      <h1>React Tic Tac Toe</h1>
       <div className="game-board">
         <Board squares={currentSquares} xIsNext={xIsNext} onPlay={handlePlay} />
       </div>
